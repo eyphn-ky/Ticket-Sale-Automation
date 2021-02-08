@@ -1,0 +1,17 @@
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\obj\Debug\BusinessLogic.csprojAssemblyReference.cache
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\bin\Debug\DataAccess.dll
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\bin\Debug\Entities.dll
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\bin\Debug\DataAccess.pdb
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\bin\Debug\DataAccess.dll.config
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\bin\Debug\Entities.pdb
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\bin\Debug\Core.dll
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\bin\Debug\Core.pdb
+C:\Users\eyuph\source\repos\Cinema-Ticket\BusinessLogic\bin\Debug\Core.dll.config

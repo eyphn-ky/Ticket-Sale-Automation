@@ -1,0 +1,12 @@
+C:\Users\eyuph\source\repos\Cinema-Ticket\Core\bin\Debug\Core.dll.config
+C:\Users\eyuph\source\repos\Cinema-Ticket\Core\bin\Debug\Core.dll
+C:\Users\eyuph\source\repos\Cinema-Ticket\Core\bin\Debug\Core.pdb
+C:\Users\eyuph\source\repos\Cinema-Ticket\Core\bin\Debug\EntityFramework.dll
+C:\Users\eyuph\source\repos\Cinema-Ticket\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\eyuph\source\repos\Cinema-Ticket\Core\bin\Debug\EntityFramework.xml
+C:\Users\eyuph\source\repos\Cinema-Ticket\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\eyuph\source\repos\Cinema-Ticket\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\eyuph\source\repos\Cinema-Ticket\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\eyuph\source\repos\Cinema-Ticket\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\eyuph\source\repos\Cinema-Ticket\Core\obj\Debug\Core.dll
+C:\Users\eyuph\source\repos\Cinema-Ticket\Core\obj\Debug\Core.pdb
