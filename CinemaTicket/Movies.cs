@@ -58,6 +58,7 @@ namespace CinemaTicket
             buyYourTicket.MovieId =int.Parse(pictureBox.Tag.ToString());     
             buyYourTicket.textBox2.Text = pictureBox.Name.ToString();
             buyYourTicket.MoviePicture.BackgroundImage = pictureBox.Image;
+         
             AfterSelectMovie();
             this.Close();
         }

@@ -14,5 +14,6 @@ namespace Entities.DTOs
         public string Day { get; set; }
         public string MovieName { get; set; }
         public string SessionName { get; set; }
+
     }
 }

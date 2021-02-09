@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic.Abstract
 {
-    interface IReservationService
+    public interface IReservationService
     {
         List<Reservation> GetAll(Expression<Func<Reservation, bool>> filter = null);
         Reservation Get(Expression<Func<Reservation, bool>> filter);

@@ -12,7 +12,7 @@ namespace Entities.Concrete
         public int Id { get; set; }
         public string Date { get; set; }
         public int SaloonId { get; set; }
-        public int SeatId { get; set; }
+        public int SeatNumber { get; set; }
         public int MovieId { get; set; }
         public int SessionId { get; set; }
         public int CustomerId { get; set; }

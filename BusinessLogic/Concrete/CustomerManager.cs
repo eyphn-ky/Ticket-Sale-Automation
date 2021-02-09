@@ -39,12 +39,9 @@ namespace BusinessLogic.Concrete
 
         public bool IsRegistered(Customer customer)
         {
-            Customer customer1 = _customerDal.Get(
-            p => p.Id == customer.Id
-            && p.Name == customer.Name
-            && p.LastName == customer.LastName
-            && p.Password == customer.Password);
-            if(customer1.Name==null)
+            Customer customer1 = _customerDal.Get(p => p.Mail == customer.Mail);
+          
+            if(string.IsNullOrEmpty(customer1.Mail))
             {
                return false;
             }

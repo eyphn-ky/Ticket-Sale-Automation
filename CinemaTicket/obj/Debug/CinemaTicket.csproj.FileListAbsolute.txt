@@ -26,3 +26,4 @@ C:\Users\eyuph\source\repos\Cinema-Ticket\CinemaTicket\bin\Debug\Core.dll
 C:\Users\eyuph\source\repos\Cinema-Ticket\CinemaTicket\bin\Debug\Core.pdb
 C:\Users\eyuph\source\repos\Cinema-Ticket\CinemaTicket\bin\Debug\Core.dll.config
 C:\Users\eyuph\source\repos\Cinema-Ticket\CinemaTicket\obj\Debug\CinemaTicket.SignUpOrLogin.resources
+C:\Users\eyuph\source\repos\Cinema-Ticket\CinemaTicket\obj\Debug\CinemaTicket.CompleteProcess.resources

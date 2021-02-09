@@ -19,27 +19,27 @@ namespace CinemaTicket
 {
     public partial class BuyYourTicket : Form
     {
-        public BuyYourTicket(Customer customer)
+        public BuyYourTicket()
         {
             InitializeComponent();
-            Customer _customer = customer;
-         
         }
         string day;/* Filme göre gelen tarihlerden seçilen tarih */
         List<Date> days;
         DateManager dateManager;
         List<SessionDetailDto> sessions;
+        public Reservation reservation;
         int SessionId;
         public int MovieId;
+        public int SaloonId;
         public List<int> selectedSeats;
-        public Customer _customer;
-
+        public Customer customer;
+        
         public void Form1_Load(object sender, EventArgs e)
         {
             dateManager = new DateManager(new EfDateDal());
-            lblCustomerName.Text = _customer.Name;
-            lblCustomerPersonalId.Text = _customer.NationalIdentity;
-            lblCustomerSurName.Text = _customer.LastName;
+            lblCustomerName.Text = customer.Name;
+            lblCustomerPersonalId.Text = customer.NationalIdentity;
+            lblCustomerSurName.Text = customer.LastName;
         }
       
         private void btnChooseMovie_Click(object sender, EventArgs e)
@@ -53,6 +53,7 @@ namespace CinemaTicket
             {
                 MessageBox.Show(exception.Message,"HATA!",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
+         
         }
 
         private void cbxDate_SelectedIndexChanged(object sender, EventArgs e)
@@ -66,7 +67,7 @@ namespace CinemaTicket
                 cbxSession.Items.Add(sessions[i - 1].SessionName.ToString());
             }
             AfterSelectDate();
-            
+         
 
         }
 
@@ -113,6 +114,8 @@ namespace CinemaTicket
             cbxSession.Visible = true;
             lblMovieSession.Visible = true;
             txtSeatNumber.Text = "";
+           
+            
         }
 
         public void AfterSelectSession()
@@ -130,7 +133,6 @@ namespace CinemaTicket
             chooseYourTicket.Date = day;
             chooseYourTicket.Show();
         }
-
         private void gbxFilm_Enter(object sender, EventArgs e)
         {
 
@@ -138,7 +140,24 @@ namespace CinemaTicket
 
         private void btnBuyTicket_Click(object sender, EventArgs e)
         {
-          
+            CompleteProcess complete = new CompleteProcess();
+            reservation = new Reservation();
+            
+            reservation.Date = cbxDate.SelectedItem.ToString();
+            reservation.SessionId = SessionId;
+            reservation.CustomerId = customer.Id;
+            reservation.MovieId = MovieId;
+            reservation.SaloonId = SaloonId;
+           
+            complete.reservation = reservation;
+            complete.seats = selectedSeats;
+            complete.MovieName = textBox2.Text;
+            complete.CustomerName = lblCustomerName.Text;
+            complete.CustomerLastName = lblCustomerSurName.Text;
+            complete.Session = cbxSession.SelectedItem.ToString();
+            complete.BuyYourTicket = this;
+
+            complete.Show();
         }
     }
 }

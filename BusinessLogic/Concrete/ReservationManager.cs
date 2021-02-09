@@ -19,17 +19,17 @@ namespace BusinessLogic.Concrete
         }
         public void Add(Reservation entity)
         {
-            throw new NotImplementedException();
+            _reservationDal.Add(entity);
         }
 
         public void Delete(Reservation entity)
         {
-            throw new NotImplementedException();
+            _reservationDal.Delete(entity);
         }
 
         public Reservation Get(Expression<Func<Reservation, bool>> filter)
         {
-            throw new NotImplementedException();
+            return _reservationDal.Get(filter);
         }
 
         public List<Reservation> GetAll(Expression<Func<Reservation, bool>> filter = null)
@@ -44,7 +44,7 @@ namespace BusinessLogic.Concrete
 
         public void Update(Reservation entity)
         {
-            throw new NotImplementedException();
+            _reservationDal.Update(entity);
         }
     }
 }

@@ -28,7 +28,6 @@ namespace Core.DataAccess.EntityFramework
         {
             using (TContext context = new TContext())
             {
-
                 var deletedEntity = context.Entry(entity);
                 deletedEntity.State = EntityState.Deleted;
                 context.SaveChanges();
@@ -41,9 +40,7 @@ namespace Core.DataAccess.EntityFramework
             {
                 return context.Set<TEntity>().SingleOrDefault(filter);
             }
-        }
-
-     
+        }    
 
         public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter=null)
         {

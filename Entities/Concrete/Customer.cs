@@ -15,5 +15,6 @@ namespace Entities.Concrete
         public string NationalIdentity { get; set; }
         public string Password { get; set; }
         public int Type { get; set; }
+        public string Mail { get; set; }
     }
 }
